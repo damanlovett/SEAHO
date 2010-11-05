@@ -1,0 +1,28 @@
+
+Basic Registration
+Full Registration
+Transactions
+Volunteers
+Summary
+
+--Meals: numbers attending meals asked about
+
+
+--Conference tshirts: summary of all orders with sizes ordered
+summarized and listing of all delegates and their sizes
+
+--Program Moderators: repot of all willing to serve as moderators with
+delegate info
+
+--Delegates by State: summary of all delegates by state
+
+--SEAHO involvement report (for ribbon disbursement)
+
+--Preconference participation (by prorgam session chosen)
+
+--Career status report: summary of all delegates by career status with
+total numbers
+
+--Cancellation report of all delegates who canceled their registrations
+(including where applicable, the name change on a registration when a
+sub is entered)

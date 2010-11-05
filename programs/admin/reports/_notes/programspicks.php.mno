@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rsFavorites" value="name:userid;datatype:int,name:programid;datatype:int,name:id;datatype:int,name:ProgramTitle;datatype:string,name:FirstName;datatype:string,name:LastName;datatype:string" />
+	<infoitem key="UD_rsProgramNames" value="name:programid;datatype:int,name:id;datatype:int,name:ProgramTitle;datatype:string,name:FirstName;datatype:string,name:LastName;datatype:string,name:programname;datatype:int" />
+</info>

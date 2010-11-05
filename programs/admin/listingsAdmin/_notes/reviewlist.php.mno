@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rsTopics" value="name:id;datatype:int,name:TopicArea;datatype:string" />
+	<infoitem key="UD_rsTotalPrograms" value="name:total;datatype:int,name:Status;datatype:string" />
+	<infoitem key="UD_rsPrograms" value="name:id;datatype:int,name:reviewID;datatype:string,name:num_yes;datatype:int,name:userID;datatype:string,name:programID;datatype:blob,name:nums_yes;datatype:int,name:id;datatype:int,name:ProgramTitle;datatype:string,name:ProgramNumber;datatype:string,name:session;datatype:string,name:FirstName;datatype:string,name:LastName;datatype:string,name:Status;datatype:string" />
+</info>

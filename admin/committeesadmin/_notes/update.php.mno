@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rsUpdate" value="name:id;datatype:int,name:position_id;datatype:string,name:user_id;datatype:string,name:position;datatype:string,name:group;datatype:string,name:email;datatype:string,name:votes;datatype:int,name:column;datatype:int,name:order;datatype:int,name:delete;datatype:int" />
+</info>

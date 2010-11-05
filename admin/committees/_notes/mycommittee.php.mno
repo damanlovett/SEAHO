@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rsStatePages" value="name:id;datatype:int,name:page_id;datatype:string,name:state_id;datatype:string,name:title;datatype:string,name:type;datatype:string,name:content;datatype:blob,name:submitted_by;datatype:string,name:mod_date;datatype:string,name:create_date;datatype:string,name:delete;datatype:int,name:active;datatype:int" />
+	<infoitem key="UD_rsComminfo" value="name:position_id;datatype:string,name:user_id;datatype:string,name:position;datatype:string" />
+	<infoitem key="UD_Recordset1" value="name:id;datatype:int,name:page_id;datatype:string,name:state_id;datatype:string,name:title;datatype:string,name:type;datatype:string,name:content;datatype:blob,name:submitted_by;datatype:string,name:mod_date;datatype:string,name:create_date;datatype:string,name:delete;datatype:int,name:active;datatype:int" />
+	<infoitem key="UD_rsActivePage" value="name:id;datatype:int,name:page_id;datatype:string,name:state_id;datatype:string,name:title;datatype:string,name:type;datatype:string,name:content;datatype:blob,name:submitted_by;datatype:string,name:mod_date;datatype:string,name:create_date;datatype:string,name:delete;datatype:int,name:active;datatype:int" />
+</info>

@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rsRegistrations" value="name:registration_id;datatype:string,name:conference_id;datatype:string,name:associate_id;datatype:string,name:conference_name;datatype:string,name:start_date;datatype:date,name:end_date;datatype:date,name:status;datatype:string,name:viewable;datatype:int" />
+	<infoitem key="UD_rsRegistrationExcel" value="name:first_name;datatype:string,name:last_name;datatype:string,name:institution;datatype:string,name:title;datatype:string,name:email;datatype:string,name:phone;datatype:string,name:career_status;datatype:string,name:primary_area;datatype:blob" />
+</info>

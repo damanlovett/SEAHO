@@ -1,0 +1,21 @@
+/* 
+    Document   : lccm
+    Created on : Jul 17, 2009, 10:59:08 PM
+    Author     : Eddie D. Lovett, II
+    Description:
+        Basic css for Lovett Creations Content Manager
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+#header {
+      background-color: #006666;
+}
+#login {
+
+    text-align: right;
+    background-color: #ff0033;
+}

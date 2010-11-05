@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rsReports" value="name:id;datatype:int,name:page_id;datatype:string,name:state_id;datatype:string,name:title;datatype:string,name:content;datatype:blob,name:submitted_by;datatype:string,name:mod_date;datatype:string,name:create_date;datatype:string" />
+</info>

@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rsVoting" value="name:id;datatype:int,name:reviewID;datatype:string,name:userID;datatype:string,name:programID;datatype:string,name:read;datatype:int,name:vote;datatype:string,name:notes;datatype:blob,name:ProgramTitle;datatype:string,name:ProgramNumber;datatype:string,name:id;datatype:int" />
+	<infoitem key="UD_rsLoginInfo" value="name:id;datatype:int,name:username;datatype:string,name:timelog;datatype:string,name:first_name;datatype:string,name:last_name;datatype:string" />
+</info>

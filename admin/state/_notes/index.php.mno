@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rsState" value="name:id;datatype:int,name:position_id;datatype:string,name:team_userid;datatype:string,name:position;datatype:string,name:group;datatype:string,name:first_name;datatype:string,name:last_name;datatype:string,name:user_id;datatype:string,name:title;datatype:string,name:school;datatype:string" />
+	<infoitem key="UD_rsReports" value="name:id;datatype:int,name:page_id;datatype:string,name:state_id;datatype:string,name:title;datatype:string,name:type;datatype:string,name:content;datatype:blob,name:submitted_by;datatype:string,name:mod_id;datatype:string,name:created_on;datatype:timestamp,name:delete;datatype:int" />
+</info>

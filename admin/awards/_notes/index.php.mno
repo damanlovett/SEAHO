@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rsState" value="name:id;datatype:int,name:position_id;datatype:string,name:team_userid;datatype:string,name:position;datatype:string,name:group;datatype:string,name:first_name;datatype:string,name:last_name;datatype:string,name:user_id;datatype:string,name:title;datatype:string,name:school;datatype:string" />
+	<infoitem key="UD_rsReports" value="name:id;datatype:int,name:page_id;datatype:string,name:state_id;datatype:string,name:title;datatype:string,name:type;datatype:string,name:content;datatype:blob,name:submitted_by;datatype:string,name:mod_id;datatype:string,name:created_on;datatype:timestamp,name:delete;datatype:int" />
+	<infoitem key="UD_rsAwards" value="name:award_id;datatype:string,name:award;datatype:string,name:description;datatype:blob,name:nomination;datatype:blob,name:accepting;datatype:int,name:visible;datatype:int,name:year;datatype:int,name:created_on;datatype:datetime,name:mod_by;datatype:string,name:mod_on;datatype:timestamp,name:created_by;datatype:string,name:deleted;datatype:int,name:modified_date;datatype:string" />
+	<infoitem key="UD_rsAwardPage" value="name:page_id;datatype:int,name:page;datatype:string,name:header;datatype:string,name:page_info;datatype:blob,name:footer;datatype:string,name:created_on;datatype:datetime,name:created_by;datatype:string,name:mod_by;datatype:string,name:mod_on;datatype:timestamp,name:deleted;datatype:int" />
+</info>

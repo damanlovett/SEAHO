@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rsCat" value="name:position_id;datatype:string,name:position;datatype:string,name:delete;datatype:int,name:group;datatype:string" />
+	<infoitem key="UD_rsEmailList" value="name:id;datatype:int,name:emailID;datatype:string,name:title;datatype:string,name:emailmessage;datatype:blob,name:sent_to;datatype:string,name:sent_by;datatype:string,name:sent_date;datatype:string,name:deleted;datatype:int" />
+</info>

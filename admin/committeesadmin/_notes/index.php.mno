@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rsGovern1" value="name:id;datatype:int,name:position_id;datatype:string,name:user_id;datatype:string,name:position;datatype:string,name:group;datatype:string,name:votes;datatype:int,name:column;datatype:int,name:order;datatype:int,name:delete;datatype:int" />
+	<infoitem key="UD_rsGovern2" value="name:id;datatype:int,name:position_id;datatype:string,name:user_id;datatype:string,name:position;datatype:string,name:group;datatype:string,name:votes;datatype:int,name:column;datatype:int,name:order;datatype:int,name:delete;datatype:int" />
+	<infoitem key="UD_rsFullList" value="name:id;datatype:int,name:position_id;datatype:string,name:user_id;datatype:string,name:position;datatype:string,name:group;datatype:string,name:votes;datatype:int,name:column;datatype:int,name:order;datatype:int,name:delete;datatype:int,name:user_id;datatype:string,name:first_name;datatype:string,name:last_name;datatype:string" />
+</info>

@@ -1,0 +1,52 @@
+.mainDiv {
+	border: 1px solid #999999;
+	width: 130px;
+	padding: 0px;
+	margin-bottom: 0px;
+	font-size: 10px;
+}
+.topItem {
+	margin: 0px;
+	padding-top: 2px;
+	padding-right: 0px;
+	padding-bottom: 3px;
+	padding-left: 3px;
+	background-color: #D7D7D7;
+	background-image: url(../images/bkgdTableHead2.jpg);
+	color: #000066;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCCCCC;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #FFFFFF;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #FFFFFF;
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #CCCCCC;
+	font-weight: bold;
+	font-size: 11px;
+}
+.subItem {
+	padding-top: 3px;
+}
+.subMenu {
+	background-color: #FFFFFF;
+	padding-top: 0px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #999999;
+}
+.dropMenu {
+	background-color: #FFFFFF;
+	padding: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 3px;
+	margin-left: 0px;
+}

@@ -1,0 +1,199 @@
+.tableborder {
+	border: 1px solid #666666;
+	background-color: #FFFFFF;
+}
+.tableborder img {
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+
+.tableborder caption {
+	text-align: left;
+	font-weight: bold;
+	color: #000099;
+	text-transform: uppercase;
+	padding-top: 3px;
+	padding-right: 3px;
+	padding-bottom: 6px;
+	padding-left: 3px;
+}
+
+.tableborder tr {
+	background-color: #FFFFFF;
+	border-top-width: 2px;
+	border-bottom-width: 2px;
+	border-top-style: dotted;
+	border-bottom-style: solid;
+	border-top-color: #999999;
+	border-right-color: #999999;
+	border-bottom-color: #FF0000;
+	border-left-color: #999999;
+}
+.tableborder tr:hover {
+	background-color: #E1E3E8;
+}
+.tableborder   a:hover {
+	text-decoration: underline;
+}
+
+.tableborder th {
+	background-image: url(../../cms/images/bkTableHeader.jpg);
+	color: #000066;
+	text-align: left;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #999999;
+	padding: 5px;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #FFFFFF;
+}
+.tablerows   {
+	border-top-style: solid;
+	border-top-color: #AAB0BE;
+	border-top-width: 1px;
+}
+.tablerows img {
+	border-style: none;
+}
+
+
+.tableTop {
+	background-color: #E1E3E8;
+	color: #000099;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #FFFFFF;
+	background-image: url(../../cms/images/LCCMtableTope.jpg);
+	background-repeat: repeat-x;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #999999;
+}
+.tableTop a:link, a:visited {
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+.tableTop a:hover {
+	text-decoration: none;
+}
+
+
+.tableBottom {
+	background-color: #E1E3E8;
+	color: #FFFFFF;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #FFFFFF;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #999999;
+	background-image: url(../../cms/images/LCCMtableBottom.jpg);
+	background-repeat: repeat-x;
+}
+
+.tableRowColor td {
+	border-bottom-width: 1px;
+	padding: 5px;
+	border-bottom-style: solid;
+}
+
+.tablehover {
+	background-color: #D1D1E3;
+}
+.tablehoverout {
+	background-color: #FFFFFF;
+}
+.tableRowColor {
+	background-color: #FFFFFF;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-top-style: dotted;
+	border-bottom-style: inset;
+	border-top-color: #999999;
+	border-bottom-color: #999999;
+}
+.tableRowColor a:link, a:visited {
+	color: #CC0000;
+	text-decoration: none;
+}
+.tableTopRight {
+
+	background-color: #3138bc;
+	color: #FFFFFF;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #FFFFFF;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #FFFFFF;
+}
+.tableBottomRight {
+
+	background-color: #3138bc;
+	color: #FFFFFF;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #FFFFFF;
+	border-right-style: solid;
+	border-right-color: #FFFFFF;
+	border-right-width: 1px;
+}
+.tableDetails {
+	border: 1px solid #666666;
+	background-color: #FFFFFF;
+}
+.tableDetails th {
+	background-image: url(../../cms/images/bkTableHeader.jpg);
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #999999;
+	text-align: left;
+	font-size: 11px;
+	color: #000066;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #FFFFFF;
+}
+.labels {
+	background-color: #DEDFEA;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #FFFFFF;
+	border-right-color: #FFFFFF;
+	border-bottom-color: #FFFFFF;
+	border-left-color: #FFFFFF;
+	border-right-width: 1px;
+	border-right-style: solid;
+	text-align: right;
+	font-weight: 400;
+}
+.labelsDetails {
+	background-color: #F1F1F5;
+}
+.tableDetails td {
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #999999;
+	font-size: 11px;
+}
+.subHeader {
+	background-color: #CDCED6;
+	font-weight: bold;
+	color: #000099;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #999999;
+	border-right-color: #999999;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.tableDetails tr:hover {
+	background-color: #E1E3E8;
+}
+.tableDetails img {
+	padding-right: 5px;
+	border-style: none;
+}

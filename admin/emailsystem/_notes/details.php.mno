@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rsEmails" value="name:id;datatype:int,name:title;datatype:string,name:emailmessage;datatype:blob,name:sent_to;datatype:string,name:sent_by;datatype:string,name:sent_on;datatype:string" />
+</info>

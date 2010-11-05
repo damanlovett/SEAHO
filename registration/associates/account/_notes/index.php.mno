@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rsAccountInfo" value="name:associate_id;datatype:string,name:org_name;datatype:string,name:seaho_years;datatype:int,name:org_type_id;datatype:string,name:contact_id;datatype:string,name:first_name;datatype:string,name:last_name;datatype:string,name:preferred_name;datatype:string,name:job_title;datatype:string,name:email;datatype:string,name:alt_email;datatype:string,name:password;datatype:string,name:address1;datatype:string,name:address2;datatype:string,name:address3;datatype:string,name:city;datatype:string,name:state;datatype:string,name:zip;datatype:string,name:office_phone;datatype:string,name:cell_phone;datatype:string,name:fax;datatype:string,name:website;datatype:string,name:overview;datatype:blob,name:created;datatype:datetime,name:active;datatype:int,name:deleted;datatype:int" />
+</info>

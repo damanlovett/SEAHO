@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rsLoginInfo" value="name:id;datatype:int,name:user_id;datatype:string,name:ip_address;datatype:string,name:time_stamp;datatype:timestamp" />
+</info>

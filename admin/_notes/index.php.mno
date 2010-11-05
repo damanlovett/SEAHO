@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rsReviewerList" value="name:userID;datatype:string,name:first_name;datatype:string,name:last_name;datatype:string" />
+	<infoitem key="UD_rsReviewers" value="name:id;datatype:int,name:total;datatype:int,name:reviewID;datatype:string,name:r_users;datatype:int,name:userID;datatype:string,name:programID;datatype:blob,name:read;datatype:int,name:r_read;datatype:int,name:r_vote;datatype:int,name:vote;datatype:string,name:id;datatype:int,name:userID;datatype:string,name:first_name;datatype:string,name:last_name;datatype:string,name:email;datatype:string" />
+	<infoitem key="UD_rsPrograms" value="name:id;datatype:int,name:total_review;datatype:int,name:ProgramTitle;datatype:string,name:Status;datatype:string" />
+	<infoitem key="UD_rsProgramsList" value="name:id;datatype:int,name:topic_area;datatype:blob" />
+	<infoitem key="UD_rsVotes" value="name:id;datatype:int,name:description;datatype:blob,name:attachment;datatype:string,name:ballot_id;datatype:string,name:title;datatype:string,name:due_date;datatype:date,name:close;datatype:int,name:delete;datatype:int" />
+	<infoitem key="UD_rsVisitors" value="name:name;datatype:string,name:user_id;datatype:string,name:time_stamp;datatype:string,name:page;datatype:string" />
+	<infoitem key="UD_rsUserInfo" value="name:id;datatype:int,name:user_id;datatype:string,name:first_name;datatype:string,name:last_name;datatype:string,name:middle;datatype:string,name:position;datatype:string,name:title;datatype:string,name:address;datatype:string,name:city;datatype:string,name:state;datatype:string,name:zip;datatype:string,name:school;datatype:string,name:email;datatype:string,name:password;datatype:string,name:access;datatype:int,name:active;datatype:int,name:delete;datatype:int" />
+</info>

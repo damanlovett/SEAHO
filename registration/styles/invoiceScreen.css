@@ -1,0 +1,16 @@
+@charset "utf-8";
+body,td,th {
+	font-family: Times New Roman, Times, serif;
+	font-size: 12pt;
+}
+.labels {
+	font-weight: bold;
+	color: #FFFFFF;
+	background: #666666;
+}
+.labelsSmall {
+	font-weight: bold;
+	color: #FFFFFF;
+	background: #666666;
+	width: 350px;
+}

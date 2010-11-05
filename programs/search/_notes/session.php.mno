@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rsProgramList" value="name:id;datatype:int,name:ProgramTitle;datatype:string,name:ProgramNumber;datatype:string,name:session;datatype:string,name:location;datatype:string,name:FirstName;datatype:string,name:LastName;datatype:string,name:Institution;datatype:string,name:TopicArea;datatype:string,name:ProgramDescription;datatype:blob" />
+	<infoitem key="UD_rsProgramlist" value="name:ProgramTitle;datatype:string,name:session;datatype:string,name:location;datatype:string,name:programTime;datatype:string,name:FirstName;datatype:string,name:SessionType;datatype:string,name:ProgramDescription;datatype:blob,name:Status;datatype:string,name:LastName;datatype:string,name:id;datatype:int" />
+</info>

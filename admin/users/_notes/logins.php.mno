@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rsVisitors" value="name:name;datatype:string,name:user_id;datatype:string,name:time_stamp;datatype:string,name:page;datatype:string" />
+</info>

@@ -1,0 +1,1 @@
+Copyright © <?php echo date('Y')." - "; echo (date('Y')+1)." ";?> Site POWERED BY LCCM, management software designed by <a href="http://lovettcreations.org">Lovett Creations</a>. All Rights Reserved

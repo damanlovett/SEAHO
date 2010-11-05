@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rsBallot" value="name:id;datatype:int,name:description;datatype:blob,name:attachment;datatype:string,name:ballot_id;datatype:string,name:title;datatype:string,name:due_date;datatype:string,name:modified_on;datatype:timestamp,name:created_on;datatype:timestamp,name:delete;datatype:int,name:close;datatype:int" />
+	<infoitem key="UD_rsAttachments" value="name:id;datatype:int,name:doc_id;datatype:string,name:categories;datatype:string,name:cat_id;datatype:string,name:title;datatype:string,name:file;datatype:string" />
+	<infoitem key="UD_rsVoters" value="name:id;datatype:int,name:vote_id;datatype:string,name:user_id;datatype:string,name:ballot_id;datatype:string,name:voter;datatype:string,name:vote;datatype:string,name:sub_date;datatype:string" />
+	<infoitem key="UD_rsVoteResults" value="name:id;datatype:int,name:vote_num;datatype:int,name:user_id;datatype:string,name:ballot_id;datatype:string,name:voter;datatype:string,name:vote;datatype:string" />
+	<infoitem key="UD_rsComments" value="name:comment_id;datatype:string,name:ballot_id;datatype:string,name:user;datatype:string,name:comment;datatype:blob,name:submit_date;datatype:string" />
+</info>

@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rsEditorsOne" value="name:editor_id;datatype:string,name:column;datatype:int,name:order;datatype:int,name:state;datatype:string,name:first_name;datatype:string,name:last_name;datatype:string,name:institution;datatype:string,name:email;datatype:string" />
+	<infoitem key="UD_rsEditorsTwo" value="name:editor_id;datatype:string,name:column;datatype:int,name:order;datatype:int,name:state;datatype:string,name:first_name;datatype:string,name:last_name;datatype:string,name:institution;datatype:string,name:email;datatype:string" />
+</info>

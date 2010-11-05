@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rsAwards" value="name:award_id;datatype:string,name:award;datatype:string,name:description;datatype:blob,name:nomination;datatype:blob,name:accepting;datatype:int,name:visible;datatype:int,name:year;datatype:string,name:created_on;datatype:datetime,name:mod_by;datatype:string,name:mod_on;datatype:timestamp,name:created_by;datatype:string,name:deleted;datatype:int,name:modified_on;datatype:string" />
+</info>

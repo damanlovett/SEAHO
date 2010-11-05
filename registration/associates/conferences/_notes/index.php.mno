@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rsCurrentConferences" value="name:conference_id;datatype:string,name:conference_name;datatype:string,name:conference_theme;datatype:blob,name:location;datatype:string,name:startdate;datatype:string,name:enddate;datatype:string,name:registration_deadline;datatype:string,name:conference_id;datatype:string,name:accepting_registrations;datatype:int,name:regBeg;datatype:string,name:regEnd;datatype:string,name:registration_begins;datatype:date,name:registration_ends;datatype:date" />
+	<infoitem key="UD_rsReginfo" value="name:conference_id;datatype:string,name:accepting_registrations;datatype:int,name:registration_begins;datatype:date,name:registration_ends;datatype:date,name:late_registration;datatype:date" />
+</info>

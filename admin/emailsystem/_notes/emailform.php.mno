@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rsCat" value="name:position_id;datatype:string,name:position;datatype:string,name:delete;datatype:int,name:group;datatype:string" />
+</info>

@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rsForgot" value="name:delegate_id;datatype:string,name:first_name;datatype:string,name:last_name;datatype:string,name:email;datatype:string,name:alt_email;datatype:string,name:password;datatype:string" />
+</info>

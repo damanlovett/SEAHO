@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rsMessage" value="name:id;datatype:int,name:message_id;datatype:string,name:posted_by;datatype:string,name:posted_on;datatype:string,name:title;datatype:string,name:message;datatype:blob,name:topic;datatype:string,name:archive;datatype:int" />
+</info>

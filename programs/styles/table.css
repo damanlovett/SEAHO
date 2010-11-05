@@ -1,0 +1,124 @@
+.tableborder {
+	border: 1px solid #666666;
+	background-color: #FFFFFF;
+}
+.tableborder img {
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+
+.tableborder tr {
+	background-color: #FFFFFF;
+	border-top-width: 2px;
+	border-bottom-width: 2px;
+	border-top-style: dotted;
+	border-bottom-style: solid;
+	border-top-color: #999999;
+	border-right-color: #999999;
+	border-bottom-color: #FF0000;
+	border-left-color: #999999;
+}
+
+.tableborder th {
+	background-image: url(../images/bkgdTableHead.jpg);
+	color: #000066;
+	text-align: left;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-top-color: #CCCCCC;
+	border-bottom-color: #000000;
+	padding: 5px;
+}
+.tableTop {
+	background-color: #F0F0F0;
+	color: #000099;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #FFFFFF;
+	background-image: url(../../admin/images/LCCMtableTope.jpg);
+	background-repeat: repeat-x;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #999999;
+}
+.tableTop a:link, a:visited {
+	color: #000099;
+	text-decoration: underline;
+}
+.tableTop a:hover {
+	text-decoration: none;
+}
+
+
+.tableBottom {
+	background-color: #990000;
+	color: #FFFFFF;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #FFFFFF;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #FFFFFF;
+}
+
+.tableRowColor td {
+	border-bottom-width: 1px;
+	padding: 5px;
+}
+
+.tablehover {
+	background-color: #D1D1E3;
+}
+.tablehoverout {
+	background-color: #FFFFFF;
+}
+.tableRowColor {
+	background-color: #FFFFFF;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-top-style: dotted;
+	border-bottom-style: inset;
+	border-top-color: #999999;
+	border-bottom-color: #999999;
+}
+.tableRowColor a:link, a:visited {
+	color: #CC0000;
+	text-decoration: none;
+}
+.tableRowColor a:hover {
+	text-decoration: underline;
+}
+.tableTopRight {
+
+	background-color: #3138bc;
+	color: #FFFFFF;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #FFFFFF;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #FFFFFF;
+}
+.tableBottomRight {
+
+	background-color: #3138bc;
+	color: #FFFFFF;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #FFFFFF;
+	border-right-style: solid;
+	border-right-color: #FFFFFF;
+	border-right-width: 1px;
+}
+.rowLines td {
+	border-top-width: thin;
+	border-bottom-width: thin;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-top-color: #999999;
+	border-bottom-color: #999999;
+}

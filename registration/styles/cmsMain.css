@@ -1,0 +1,226 @@
+body,td,th, input, textarea, textbox, select   {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 8.5pt;
+	color: #333333;
+}
+input, textarea, textbox, select {
+	color: #000099;
+}
+#loginbox {
+	width: 350px;
+	background-color: #E0DFE3;
+	border: 3px double #333333;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-left: 5px;
+	margin-top: 15px;
+}
+.smalltextbox {
+	margin-right: 10px;
+	font-size: 10px;
+}
+.smallbox {
+	font-size: 10px;
+}
+.footer {
+	padding: 8px;
+	text-align: center;
+}
+label {
+	text-align: right;
+	display: block;
+	font-weight: bold;
+	color: #000099;
+}
+.cleartable {
+	clear: both;
+}
+
+.title {
+	display: block;
+	padding: 12px;
+	font-size: 15px;
+	color: #000099;
+	font-weight: bold;
+	text-align: center;
+}
+.denied {
+	font-weight: bold;
+	color: #990000;
+	font-size: 11px;
+	text-align: center;
+}
+.user {
+	background-color: #FFFFFF;
+	border: 1px solid #999999;
+	text-align: left;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	padding-left: 5px;
+	font-size: 8pt;
+	font-weight: bold;
+	line-height: 1.2em;
+	width: 210px;
+	margin-top: 15px;
+	margin-left: 510px;
+}
+.bannerimageHome {
+	height: 94px;
+	width: 764px;
+	background-image: url(../../images/banner/bannerassociates.jpg);
+	margin: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	padding-top: 5px;
+}
+
+.bannerimage {
+	height: 94px;
+	width: 764px;
+	background-image: url(../../images/banner/bannerassociateCMS.jpg);
+	margin: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	padding-top: 5px;
+}
+#contentleftmain  ul {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+#contentleftmain li {
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	text-align: left;
+	color: #000099;
+	line-height: 1.8em;
+}
+.bannerimage ul {
+	list-style-type: none;
+	padding: 0px;
+	width: 210px;
+	border-top-width: 3px;
+	border-right-width: 3px;
+	border-bottom-width: 3px;
+	border-left-width: 3px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	margin-top: 2px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 510px;
+}
+.bannerimage li {
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	text-align: left;
+	color: #FFFFFF;
+	padding-left: 5px;
+	margin: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	font-weight: bold;
+	font-size: 7pt;
+}
+h1 {
+	color: #003399;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14pt;
+	display: block;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #0000CC;
+	padding-bottom: 5px;
+}
+h2 {
+	font-size: 9pt;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	padding: 0px;
+	text-transform: uppercase;
+	margin-top: 10px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+.required {
+	color: #FF0000;
+	font-weight: bold;
+}
+.updated {
+	font-size: 10pt;
+	color: #FF0000;
+}
+
+.lineHeight {
+	line-height: 1.8em;
+}
+.tableBasic {
+	line-height: 2em;
+}
+.tableBasic h2 {
+	margin: 0px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	text-transform: none;
+	font-weight: normal;
+	padding-right: 5px;
+	text-align: right;
+	font-size: 8.5pt;
+}
+.tableBasicForm {
+	line-height: 3em;
+}
+.tableBasicForm h2 {
+	margin: 0px;
+	font-size: 8.5pt;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	text-transform: none;
+	font-weight: normal;
+	padding-right: 5px;
+	color: #333333;
+	text-align: right;
+}
+.basicInfoFieldSet {
+	width: 95%;
+	background-color: #F8F8FA;
+	color: #000066;
+	margin: 0px;
+}
+#contentleftmain {
+	width: 150px;
+	padding: 15px;
+	text-align: center;
+	vertical-align: top;
+	font-size: 10px;
+}
+#contentmain {
+	vertical-align: top;
+	width: 560px;
+	padding: 20px 20px 10px 0px;
+}
+.steps {
+	font-weight: bold;
+	font-size: 14px;
+	color: #FFFFFF;
+	font-style: italic;
+	background: #000099;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	padding-left: 15px;
+}
+.invoiceSubheader {
+	font-size: 11px;
+	color: #990000;
+	font-weight: bold;
+}

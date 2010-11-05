@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rsBallot" value="name:id;datatype:int,name:description;datatype:blob,name:attachment;datatype:string,name:ballot_id;datatype:string,name:title;datatype:string,name:mod_date;datatype:string,name:create_date;datatype:string,name:due_date;datatype:string,name:close;datatype:int" />
+</info>

@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rsEmails" value="name:position_id;datatype:string,name:user_id;datatype:string,name:position;datatype:string,name:group;datatype:string,name:delete;datatype:int,name:user_id;datatype:string,name:first_name;datatype:string,name:last_name;datatype:string,name:email;datatype:string" />
+	<infoitem key="UD_rsAllEmails" value="name:position_id;datatype:string,name:user_id;datatype:string,name:position;datatype:string,name:group;datatype:string,name:delete;datatype:int,name:user_id;datatype:string,name:first_name;datatype:string,name:last_name;datatype:string,name:email;datatype:string" />
+</info>

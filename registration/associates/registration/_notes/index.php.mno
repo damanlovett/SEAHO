@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rsRegistrations" value="name:registration_id;datatype:string,name:conference_id;datatype:string,name:associate_id;datatype:string,name:conference_name;datatype:string,name:transaction_amount;datatype:real,name:registration_id;datatype:string,name:start_date;datatype:date,name:end_date;datatype:date,name:trans_sum;datatype:real,name:status;datatype:string" />
+	<infoitem key="UD_rsRegNoTrans" value="name:registration_id;datatype:string,name:conference_id;datatype:string,name:associate_id;datatype:string,name:conference_name;datatype:string,name:start_date;datatype:date,name:end_date;datatype:date,name:status;datatype:string" />
+	<infoitem key="UD_rsRegistrationsNew" value="name:registration_id;datatype:string,name:conference_id;datatype:string,name:conference_id;datatype:string,name:conference_name;datatype:string,name:associate_id;datatype:string,name:status;datatype:string" />
+</info>

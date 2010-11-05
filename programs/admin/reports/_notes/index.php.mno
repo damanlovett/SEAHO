@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rsAudience" value="name:id;datatype:int,name:audience;datatype:string" />
+	<infoitem key="UD_rsSessionType" value="name:id;datatype:int,name:session_type;datatype:string" />
+	<infoitem key="UD_rsTopicArea" value="name:id;datatype:int,name:topic_area;datatype:blob" />
+	<infoitem key="UD_rsTopicCounts" value="name:state;datatype:string,name:COUNT(state);datatype:int" />
+</info>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rsStatePages" value="name:rep_id;datatype:string,name:State;datatype:string,name:College;datatype:string,name:Chief Housing Officer;datatype:string,name:Title;datatype:string,name:id;datatype:int" />
+	<infoitem key="UD_rsStateInfo" value="name:id;datatype:int,name:position_id;datatype:string,name:user_id;datatype:string,name:position;datatype:string,name:group;datatype:string" />
+	<infoitem key="MMGuideColor" value="#00FF00" />
+	<infoitem key="MMGuideVisible" value="true" />
+	<infoitem key="MMGuideLocked" value="false" />
+	<infoitem key="MMSnapToGuide" value="true" />
+	<infoitem key="MMGuidesSnapToElements" value="true" />
+	<infoitem key="MMDistanceColor" value="#0000FF" />
+	<infoitem key="MMGuideCount" value="1" />
+	<infoitem key="MMGuide0" value="horizontal: user 241 px" />
+</info>

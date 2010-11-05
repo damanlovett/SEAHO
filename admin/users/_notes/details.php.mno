@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rsUpdate" value="name:id;datatype:int,name:user_id;datatype:string,name:first_name;datatype:string,name:last_name;datatype:string,name:middle;datatype:string,name:position;datatype:string,name:title;datatype:string,name:address;datatype:string,name:city;datatype:string,name:state;datatype:string,name:zip;datatype:string,name:school;datatype:string,name:email;datatype:string,name:password;datatype:string,name:access;datatype:int" />
+	<infoitem key="UD_rsPosition" value="name:id;datatype:int,name:position_id;datatype:string,name:user_id;datatype:string,name:position;datatype:string,name:group;datatype:string,name:votes;datatype:int,name:column;datatype:int,name:order;datatype:int" />
+	<infoitem key="UD_rsGroup" value="name:id;datatype:int,name:position_id;datatype:string,name:group;datatype:string" />
+	<infoitem key="UD_rsPositionList" value="name:position_id;datatype:string,name:position;datatype:string,name:user_id;datatype:string,name:delete;datatype:int" />
+	<infoitem key="UD_rsCommittee" value="name:id;datatype:int,name:position_id;datatype:string,name:user_id;datatype:string,name:position;datatype:string,name:group;datatype:string,name:votes;datatype:int" />
+	<infoitem key="UD_rsCommitteeList" value="name:position_id;datatype:string,name:position;datatype:string,name:user_id;datatype:string,name:delete;datatype:int" />
+</info>

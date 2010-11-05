@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rsRegistrations" value="name:status;datatype:string,name:conference_name;datatype:string,name:conference_theme;datatype:blob,name:registration_id;datatype:string,name:location;datatype:string,name:start_date;datatype:date,name:end_date;datatype:date,name:conference_id;datatype:string" />
+</info>

@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rsAnnoucements" value="name:id;datatype:int,name:annoucements_id;datatype:string,name:page;datatype:string,name:content;datatype:blob,name:modified_by;datatype:string,name:last_modified;datatype:datetime" />
+</info>

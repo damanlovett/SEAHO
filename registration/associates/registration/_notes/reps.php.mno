@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rsReps" value="name:rep_id;datatype:string,name:associate_id;datatype:string,name:registration_id;datatype:string,name:first_name;datatype:string,name:last_name;datatype:string,name:tag_name;datatype:string,name:email;datatype:string" />
+	<infoitem key="UD_rsRegInfo" value="name:registration_id;datatype:string,name:conference_id;datatype:string,name:associate_id;datatype:string,name:invoice_no;datatype:string" />
+</info>

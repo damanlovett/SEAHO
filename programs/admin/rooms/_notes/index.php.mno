@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rsProgramList" value="name:id;datatype:int,name:ProgramTitle;datatype:string,name:session;datatype:string" />
+	<infoitem key="UD_rsAssignment" value="name:id;datatype:int,name:roomID;datatype:string,name:programID;datatype:string,name:location;datatype:string,name:start_time;datatype:string,name:end_time;datatype:string,name:id;datatype:int,name:ProgramTitle;datatype:string,name:ProgramNumber;datatype:string,name:in_use;datatype:date" />
+	<infoitem key="UD_Recordset1" value="name:id;datatype:int,name:roomID;datatype:string,name:programID;datatype:string,name:location;datatype:string,name:start_time;datatype:string,name:end_time;datatype:string,name:id;datatype:int,name:ProgramTitle;datatype:string,name:ProgramNumber;datatype:string" />
+	<infoitem key="UD_rsExcel" value="name:location;datatype:string,name:start_time;datatype:string,name:end_time;datatype:string,name:ProgramTitle;datatype:string,name:ProgramNumber;datatype:string" />
+</info>

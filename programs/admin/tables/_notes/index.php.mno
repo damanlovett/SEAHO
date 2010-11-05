@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rsUserInfo" value="name:id;datatype:int,name:userID;datatype:string,name:first_name;datatype:string,name:last_name;datatype:string,name:email;datatype:string,name:password;datatype:string,name:access;datatype:int" />
+	<infoitem key="UD_rsAudience" value="name:id;datatype:int,name:audience;datatype:string" />
+	<infoitem key="UD_rsSessionType" value="name:id;datatype:int,name:session_type;datatype:string" />
+	<infoitem key="UD_rsTopicArea" value="name:id;datatype:int,name:topic_area;datatype:blob" />
+	<infoitem key="UD_Recordset1" value="name:id;datatype:int,name:session_type;datatype:string" />
+	<infoitem key="UD_rsExperience" value="name:id;datatype:int,name:experience_level;datatype:string,name:deleted;datatype:int" />
+</info>

@@ -1,0 +1,22 @@
+  <?php require_once('../../fckeditor/fckeditor.php'); ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Untitled Document</title>
+</head>
+
+<body>
+<p>
+</p>
+<p><?php
+$oFCKeditor = new FCKeditor('emailmessage');
+$oFCKeditor->BasePath = '/FCKeditor/';
+$oFCKeditor->Width  = '50%' ;
+$oFCKeditor->Height = '200' ;
+$oFCKeditor->Value = 'Default text in editor';
+$oFCKeditor->Create();
+?>
+</p>
+</body>
+</html>

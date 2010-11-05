@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rsPrograms" value="name:id;datatype:int,name:ProgramTitle;datatype:string" />
+	<infoitem key="UD_rsReviewers" value="name:id;datatype:int,name:FirstName;datatype:string,name:LastName;datatype:string,name:Email;datatype:string,name:Password;datatype:string,name:Access;datatype:string,name:Notes;datatype:string" />
+	<infoitem key="UD_rsProgramsReview" value="name:reviewID;datatype:string,name:userID;datatype:string,name:programID;datatype:string,name:read;datatype:int,name:vote;datatype:int,name:ProgramTitle;datatype:string,name:ProgramNumber;datatype:string,name:FirstName;datatype:string,name:LastName;datatype:string,name:id;datatype:int" />
+	<infoitem key="UD_rsProgramsAssign" value="name:id;datatype:int,name:ProgramTitle;datatype:string" />
+</info>

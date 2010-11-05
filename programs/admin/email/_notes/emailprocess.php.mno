@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rsEmails" value="name:ProgramTitle;datatype:string,name:FirstName;datatype:string,name:EmailAddress;datatype:string,name:Status;datatype:string" />
+	<infoitem key="UD_rsEmailCommittee" value="name:id;datatype:int,name:userID;datatype:string,name:first_name;datatype:string,name:last_name;datatype:string,name:email;datatype:string" />
+</info>

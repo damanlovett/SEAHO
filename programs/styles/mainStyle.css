@@ -1,0 +1,388 @@
+/********************************************************/
+/*                                                      */
+/*  Main CSS for SEAHO.org Programming Admin site       */
+/*  Site and CSS file created by Lovett Creations       */
+/*  Copyright 2007 -2008 All Rights Reserved            */
+/*                                                      */
+/********************************************************/
+
+
+/*************       Global Section        *************/
+
+body,td,th, input, textarea, textbox, select {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10.5px;
+}
+
+input, textarea, textbox, select {
+	color: #000099;
+}
+form {
+	margin: 0px;
+	padding: 0px;
+}
+
+
+body {
+	margin: 0px;
+	overflow: -moz-scrollbars-vertical;
+}
+a:link, a:visited {
+	color: #CC0000;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+	color: #666666;
+}
+.navbar a:link, .navbar a:visited {
+	color: #CC0000;
+	text-decoration: none;
+}
+.navbar a:hover {
+	color: #999999;
+	text-decoration: underline;
+}
+.homepageTitles a:link, .homepageTitles a:visited {
+	color: #CC0000;
+	text-decoration: none;
+	font-size: 12px;
+	font-weight: bold;
+}
+.homepageTitles a:hover {
+	color: #999999;
+	text-decoration: underline;
+}
+/*************       Page Design Layout        *************/
+
+#header {
+	background-image: url(/programs/images/bkgdHeader2.png);
+	background-color: #FFFFFF;
+	background-repeat: no-repeat;
+	background-position: left;
+	height: 100px;
+}
+#header p {
+	text-align: left;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-left: 5px;
+	color: #000066;
+}
+#mainContent {
+	background-color: #CECCEA;
+	border: 1px solid #999999;
+	margin-left: 155px;
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-bottom: 20px;
+}
+#mainText {
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+}
+#mainText h2 {
+	border: 3px double #2D308D;
+	height: 55px;
+	font-size: 20px;
+	padding-left: 5px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	background-color: #FFFFFF;
+	color: #CC0000;
+	font-weight: bold;
+}
+#mainText img {
+	padding-right: 5px;
+	vertical-align: text-top;
+}
+
+#mainText h3 {
+	font-size: 13px;
+	margin-top: 8px;
+	margin-bottom: 8px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	border-top-width: 2px;
+	border-bottom-width: 1px;
+	border-top-style: solid;
+	border-top-color: #000033;
+	border-bottom-style: solid;
+	border-bottom-color: #000033;
+	background-color: #0000CC;
+	color: #FFFFFF;
+}
+#sidebar {
+	width: 120px;
+	margin-left: 1%;
+	float: left;
+	margin-top: 10px;
+}
+#pageInformation {
+	background-color: #FFFFFF;
+	border: 1px solid #999999;
+	padding-top: 3px;
+	padding-right: 3px;
+	padding-bottom: 7px;
+	padding-left: 3px;
+	margin-bottom: 20px;
+}
+#pageInformation strong {
+	color: #000066;
+}
+
+#pageInformation ul {
+	list-style-type: none;
+	margin: 0px;
+	padding-right: 3px;
+	padding-left: 3px;
+}
+#pageInformation li {
+	display: inline;
+	padding-right: 20px;
+}
+#pageInformation h1 {
+	font-size: 12px;
+	color: #000066;
+}
+
+
+
+#footer {
+	background-image: url(/programs/images/bkgdfooter.png);
+	height: 40px;
+	background-color: #FFFFFF;
+	background-repeat: repeat-x;
+	padding-top: 20px;
+	clear: both;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+/*************       Section Titles        *************/
+
+.MembersSectionTitle {
+	color: #FFFFFF;
+	background-color: #669900;
+}
+.CommitteeSectionTitle {
+	color: #000066;
+}
+.StateSectionTitle {
+	color: #000066;
+}
+.ReportsSectionTitle {
+	color: #000066;
+}
+.LeadershipSectionTitle {
+	color: #000066;
+}
+
+/*************       Admin Page Titles        *************/
+
+.AdminMembersPageTitle {
+	color: #000066;
+}
+.AdminCommitteePageTitle {
+	color: #000066;
+}
+.AdminStatePageTitle {
+	color: #000066;
+}
+.AdminReportsPageTitle {
+	color: #FF0000;
+}
+.AdminLeadershipPageTitle {
+	color: #FF0000;
+}
+
+/*************       Main Page Titles        *************/
+
+.MembersPageTitle {
+	color: #000066;
+	background-image: url(../images/imgPHCommittee.jpg);
+	height: 50px;
+	background-repeat: no-repeat;
+	display: block;
+	padding-left: 65px;
+	padding-top: 10px;
+}
+.CommitteePageTitle {
+	color: #000066;
+	background-image: url(../images/imgPHCommittee.jpg);
+	height: 50px;
+	background-repeat: no-repeat;
+	display: block;
+	padding-left: 65px;
+	padding-top: 10px;
+}
+.StatePageTitle {
+	color: #000066;
+	background-image: url(../images/imgPHCommittee.jpg);
+	height: 50px;
+	background-repeat: no-repeat;
+	display: block;
+	padding-left: 65px;
+	padding-top: 10px;
+}
+.ReportsPageTitle {
+	color: #000066;
+	background-image: url(../images/imgPHCommittee.jpg);
+	height: 50px;
+	background-repeat: no-repeat;
+	display: block;
+	padding-left: 65px;
+	padding-top: 10px;
+}
+.LeadershipPageTitle {
+	color: #000066;
+	background-image: url(../images/imgPHCommittee.jpg);
+	height: 50px;
+	background-repeat: no-repeat;
+	display: block;
+	padding-left: 65px;
+	padding-top: 10px;
+}
+
+/*************       Table Headers        *************/
+
+.MembersTableHeader {
+	color: #000066;
+	background-image: url(../images/imgPHCommittee.jpg);
+	height: 50px;
+	background-repeat: no-repeat;
+	display: block;
+	padding-left: 65px;
+	padding-top: 10px;
+}
+.CommitteeTableHeader {
+	color: #FFFFFF;
+	background-color: #336600;
+	border-top-width: 1px;
+	border-top-style: none;
+	border-top-color: #FFFFFF;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #000000;
+	padding: 3px;
+}
+.StateTableHeader {
+	color: #000066;
+	background-image: url(../images/imgPHCommittee.jpg);
+	height: 50px;
+	background-repeat: no-repeat;
+	display: block;
+	padding-left: 65px;
+	padding-top: 10px;
+}
+.ReportsTableHeader {
+	color: #000066;
+	background-image: url(../images/imgPHCommittee.jpg);
+	height: 50px;
+	background-repeat: no-repeat;
+	display: block;
+	padding-left: 65px;
+	padding-top: 10px;
+}
+.LeadershipTableHeader {
+	color: #000066;
+	background-image: url(../images/imgPHCommittee.jpg);
+	height: 50px;
+	background-repeat: no-repeat;
+	display: block;
+	padding-left: 65px;
+	padding-top: 10px;
+}
+
+.whiteText a {
+	color: #FFFFFF;
+}
+.whiteBox {
+	background-color: #FFFFFF;
+	padding: 5px;
+	border: 1px solid #999999;
+	width: 100%;
+}
+.pageInformation {
+
+	background-color: #FFFFFF;
+	border: 1px solid #999999;
+	padding-top: 3px;
+	padding-right: 3px;
+	padding-bottom: 7px;
+	padding-left: 3px;
+	margin-bottom: 20px;
+}
+.pageInformation strong {
+
+	color: #000066;
+}
+.pageInformation ul {
+
+	list-style-type: none;
+	margin: 0px;
+	padding-right: 3px;
+	padding-left: 3px;
+}
+.pageInformation li {
+
+	display: inline;
+	padding-right: 20px;
+}
+#mainContentHome {
+	background-color: #DEDEDE;
+	border: 1px solid #999999;
+	margin-left: auto;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-bottom: 20px;
+	width: 760px;
+}
+.homepageBlocks {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #CC0000;
+	font-size: 12px;
+	font-weight: bold;
+}
+.TextButtons {
+	font-size: 12px;
+	font-weight: bold;
+	color: #990000;
+}
+.detailspopup {
+	line-height: 1.3em;
+	font-size: 11px;
+	padding: 20px;
+	border: 5px solid #DEDEDE;
+}
+.detailspopup strong {
+	color: #000099;
+}
+.cleartable {
+	clear: both;
+}
+.nolinks {
+	text-decoration: none;
+}
+
+
+.PageInfoImage {
+	margin: 0px;
+	padding: 0px;
+}
+.texteditor {
+	border: 3px double #000099;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+.detailspopup2 {
+	line-height: 1.3em;
+	font-size: 11px;
+	padding: 20px;
+	width: 300px;
+}
+.detailspopup2 strong {
+
+	color: #000099;
+}

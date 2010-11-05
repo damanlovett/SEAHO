@@ -1,0 +1,43 @@
+/**
+	 *	Cosmetic Page Styles
+	 *
+	 *	These affects the appearance of the layout
+	 */
+
+	body {
+		font-family:	Arial, sans-serif;
+		font-size:		100%;
+		*font-size:		0.8em; /* IE 6/7 only */
+	}
+	p {
+		font-size:		1em;
+		margin:			1em 0;
+	}
+	button {
+		line-height:	normal;
+	}
+
+	/**
+	 *	Basic Layout Theme
+	 * 
+	 *	This theme uses the default layout class-names for all classes
+	 *	Add any 'custom class-names', from options: paneClass, resizerClass, togglerClass
+	 *
+	 *	Download a slightly more comprehensive stylesheet here:
+	 *		http://layout.jquery-dev.net/demos/css/layout-default.css
+	 */
+
+	.ui-layout-pane { /* all 'panes' */ 
+		background: #FFF; 
+		border: 1px solid #BBB; 
+		padding: 10px; 
+		overflow: auto;
+	} 
+
+	.ui-layout-resizer { /* all 'resizer-bars' */ 
+		background: #DDD; 
+	} 
+
+	.ui-layout-toggler { /* all 'toggler-buttons' */ 
+		background: #AAA; 
+	} 

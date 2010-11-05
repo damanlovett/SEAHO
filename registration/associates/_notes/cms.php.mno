@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rsCMSinfo" value="name:id;datatype:int,name:status;datatype:string,name:sitename;datatype:string,name:supportemail;datatype:string,name:sysVersion;datatype:string,name:sysCreation;datatype:string,name:sysContract;datatype:string,name:sysOperator;datatype:string,name:sysLiaison;datatype:string,name:sysRoot;datatype:string,name:sysFileRoot;datatype:string,name:sysDescription;datatype:blob" />
+</info>

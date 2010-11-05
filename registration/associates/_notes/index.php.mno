@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rsAssociateList" value="name:org_name;datatype:string,name:email;datatype:string,name:active;datatype:int" />
+	<infoitem key="UD_rsConferenceList" value="name:conference_name;datatype:string,name:conference_theme;datatype:blob,name:location;datatype:string,name:start_date;datatype:string,name:end_date;datatype:string,name:event_type;datatype:string,name:id;datatype:int,name:form_id;datatype:string,name:conference_id;datatype:string,name:accepting_registrations;datatype:int,name:reg_begins;datatype:string,name:reg_ends;datatype:string,name:late_registration;datatype:date" />
+	<infoitem key="UD_rsErrorMessage" value="name:error_id;datatype:int,name:error_title;datatype:string,name:error_description;datatype:blob,name:deleted;datatype:int,name:team_id;datatype:string" />
+</info>

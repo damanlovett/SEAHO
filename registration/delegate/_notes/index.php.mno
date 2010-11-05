@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rsErrorMessage" value="name:error_id;datatype:int,name:error_title;datatype:string,name:error_description;datatype:blob,name:deleted;datatype:int,name:team_id;datatype:string" />
+	<infoitem key="UD_rsDelegate" value="name:delegate_name;datatype:string,name:institution;datatype:string,name:email;datatype:string" />
+</info>

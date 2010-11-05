@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rsAssignments" value="name:id;datatype:int,name:ProgramTitle;datatype:string,name:ProgramNumber;datatype:string,name:session;datatype:string,name:moderated;datatype:string" />
+</info>

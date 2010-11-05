@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rsTopics" value="name:id;datatype:int,name:TopicArea;datatype:string" />
+	<infoitem key="UD_rsEmailList" value="name:id;datatype:int,name:title;datatype:string,name:emailmessage;datatype:blob,name:sent_to;datatype:string,name:sent_by;datatype:string,name:sent_date;datatype:string,name:emailID;datatype:string" />
+</info>

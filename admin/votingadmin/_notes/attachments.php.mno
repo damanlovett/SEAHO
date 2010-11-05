@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rsAttachments" value="name:id;datatype:int,name:doc_id;datatype:string,name:title;datatype:string,name:name;datatype:string,name:cat_id;datatype:string,name:categories;datatype:string,name:type;datatype:string,name:size;datatype:int,name:content;datatype:blob" />
+	<infoitem key="UD_rsGetDownload" value="name:id;datatype:int,name:doc_id;datatype:string,name:title;datatype:string,name:name;datatype:string,name:cat_id;datatype:string,name:categories;datatype:string,name:type;datatype:string,name:size;datatype:int,name:content;datatype:blob" />
+	<infoitem key="UD_rsBallot" value="name:id;datatype:int,name:description;datatype:blob,name:attachment;datatype:string,name:ballot_id;datatype:string,name:title;datatype:string,name:due_date;datatype:date,name:modified_on;datatype:timestamp,name:created_on;datatype:timestamp" />
+</info>
