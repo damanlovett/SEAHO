@@ -1,4 +1,6 @@
 <?php require_once('../../../Connections/CMS.php'); ?>
+<?php require_once('../../includefiles/initDelegates.php'); ?>
+
 <?php
 if (!function_exists("GetSQLValueString")) {
 function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDefinedValue = "") 
@@ -28,9 +30,6 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
   return $theValue;
 }
 }
-?>
-<?php require_once('../../includefiles/initDelegates.php'); ?>
-<?php
 
 $editFormAction = $_SERVER['PHP_SELF'];
 if (isset($_SERVER['QUERY_STRING'])) {
@@ -46,7 +45,7 @@ if ((isset($_GET['transaction_id'])) && ($_GET['transaction_id'] != "")) {
 }
 
 if ((isset($_POST["MM_insert"])) && ($_POST["MM_insert"] == "add")) {
-  $insertSQL = sprintf("INSERT INTO delegate_transactions (transaction_id, registration_id, conference_id, delegate_id, label, transaction_type, transaction_amount, date_entered, personal, entered_by) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s)",
+  $insertSQL = sprintf("INSERT INTO delegate_transactions (transaction_id, registration_id, conference_id, delegate_id, label, transaction_type, transaction_amount, date_entered, entered_by) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s)",
                        GetSQLValueString($_POST['transaction_id'], "text"),
                        GetSQLValueString($_POST['registration_id'], "text"),
                        GetSQLValueString($_POST['conference_id'], "text"),
@@ -55,7 +54,6 @@ if ((isset($_POST["MM_insert"])) && ($_POST["MM_insert"] == "add")) {
                        GetSQLValueString($_POST['transaction_type'], "text"),
                        GetSQLValueString($_POST['transaction_amount'], "double"),
                        GetSQLValueString($_POST['date_entered'], "text"),
-                       GetSQLValueString($_POST['personal'], "text"),
                        GetSQLValueString($_POST['entered_by'], "text"));
   sqlQueryLog($insertSQL);
   mysql_select_db($database_CMS, $CMS);
@@ -115,7 +113,7 @@ if (isset($_SESSION['userID'])) {
   $colname2_rsTransactions = $_SESSION['userID'];
 }
 mysql_select_db($database_CMS, $CMS);
-$query_rsTransactions = sprintf("SELECT * FROM delegate_transactions WHERE conference_id = %s AND delegate_transactions.delegate_id = %s AND delegate_transactions.personal=1 ORDER BY date_entered ASC", GetSQLValueString($colname_rsTransactions, "text"),GetSQLValueString($colname2_rsTransactions, "text"));
+$query_rsTransactions = sprintf("SELECT * FROM delegate_transactions WHERE conference_id = %s AND delegate_transactions.delegate_id = %s AND personal=0 ORDER BY date_entered ASC", GetSQLValueString($colname_rsTransactions, "text"),GetSQLValueString($colname2_rsTransactions, "text"));
 $rsTransactions = mysql_query($query_rsTransactions, $CMS) or die(mysql_error());
 $row_rsTransactions = mysql_fetch_assoc($rsTransactions);
 $totalRows_rsTransactions = mysql_num_rows($rsTransactions);
@@ -129,7 +127,7 @@ if (isset($_SESSION['userID'])) {
   $colname2_rsTransSum = $_SESSION['userID'];
 }
 mysql_select_db($database_CMS, $CMS);
-$query_rsTransSum = sprintf("SELECT SUM(delegate_transactions.transaction_amount) AS Trans_sum, delegate_transactions.transaction_id, delegate_transactions.conference_id FROM delegate_transactions WHERE conference_id = %s AND delegate_transactions.delegate_id = %s AND delegate_transactions.personal=1 GROUP BY delegate_transactions.conference_id", GetSQLValueString($colname_rsTransSum, "text"),GetSQLValueString($colname2_rsTransSum, "text"));
+$query_rsTransSum = sprintf("SELECT SUM(delegate_transactions.transaction_amount) AS Trans_sum, delegate_transactions.transaction_id, delegate_transactions.conference_id FROM delegate_transactions WHERE conference_id = %s AND delegate_transactions.delegate_id = %s AND personal=0 GROUP BY delegate_transactions.conference_id", GetSQLValueString($colname_rsTransSum, "text"),GetSQLValueString($colname2_rsTransSum, "text"));
 $rsTransSum = mysql_query($query_rsTransSum, $CMS) or die(mysql_error());
 $row_rsTransSum = mysql_fetch_assoc($rsTransSum);
 $totalRows_rsTransSum = mysql_num_rows($rsTransSum);
@@ -149,7 +147,7 @@ if (isset($_GET['conferenceID'])) {
   $colname_rsIncludedMeals = $_GET['conferenceID'];
 }
 mysql_select_db($database_CMS, $CMS);
-$query_rsIncludedMeals = sprintf("SELECT * FROM delegate_invoice WHERE conference_id = %s AND delegate_invoice.type='Meals' ORDER BY delegate_invoice.id DESC", GetSQLValueString($colname_rsIncludedMeals, "text"));
+$query_rsIncludedMeals = sprintf("SELECT * FROM delegate_invoice WHERE conference_id = %s AND delegate_invoice.type='Included Meal' OR delegate_invoice.type='Meals' ORDER BY delegate_invoice.id DESC", GetSQLValueString($colname_rsIncludedMeals, "text"));
 $rsIncludedMeals = mysql_query($query_rsIncludedMeals, $CMS) or die(mysql_error());
 $row_rsIncludedMeals = mysql_fetch_assoc($rsIncludedMeals);
 $totalRows_rsIncludedMeals = mysql_num_rows($rsIncludedMeals);
@@ -211,12 +209,11 @@ function MM_goToURL() { //v3.0
         <?php require_once('../../includefiles/leftNavDelegates.php'); ?>
 <!-- InstanceEndEditable --><img src="../../../images/dropshadowlogo.jpg" alt="Seaho Logo" /></td>
     <td width="582" valign="top" id="contentmain"><!-- InstanceBeginEditable name="mainContent" -->
-      <h3><strong>Personal Invoice </strong><span class="invoiceSubheader">[ <?php echo $row_rsConference['conference_name']; ?> ]</span></h3>
+      <h3><strong>Institution Invoice </strong><span class="invoiceSubheader">[ <?php echo $row_rsConference['conference_name']; ?> ]</span></h3>
       <p>
-        <input name="button2" type="button" id="button2" onclick="MM_goToURL('parent','invoice.php?conferenceID=<?php echo $row_rsConference['conference_id']; ?>');return document.MM_returnValue" value="Switch to Institution Invoice" />
+        <input name="button2" type="button" id="button2" onclick="MM_goToURL('parent','invoicePersonal.php?conferenceID=<?php echo $row_rsConference['conference_id']; ?>');return document.MM_returnValue" value="Switch to Personal Invoice" />
       </p>
-      <p><strong>IMPORTANT: Please only add items that you are going to pay for personally.</strong></p>
-      <p class="steps"> Registration: Step 2 of 2 </p>
+      <p class="steps"> Registration: Step 2 of 2</p>
       <div id="updateReg">
       <p><?php echo $row_rsAnnoucements['content']; ?></p>
       <table width="100%" border="0" cellpadding="1" cellspacing="0" class="tableDetails">
@@ -241,7 +238,6 @@ function MM_goToURL() { //v3.0
                 <input type="submit" name="add" id="add" value="Add" />
               </div>
               <input type="hidden" name="MM_insert" value="add" />
-              <input name="personal" type="hidden" id="personal" value="1" />
             </form></td>
           </tr>
           <?php } while ($row_rsFees = mysql_fetch_assoc($rsFees)); ?>
@@ -254,7 +250,6 @@ function MM_goToURL() { //v3.0
             <td><form id="form3" name="form3" method="post" action="">
                 <div align="right">
                   <input name="conference_id" type="hidden" id="conference_id" value="<?php echo $row_rsConference['conference_id']; ?>" />
-                  <input name="personal" type="hidden" id="personal" value="1" />
                   <input name="transaction_id" type="hidden" id="transaction_id" value="<?php echo create_guid();?>" />
                   <input name="registration_id" type="hidden" id="registration_id" value="<?php echo $row_rsRegInfo['registration_id']; ?>" />
                   <input name="delegate_id" type="hidden" id="delegate_id" value="<?php echo $_SESSION['userID']; ?>" />
@@ -274,14 +269,13 @@ function MM_goToURL() { //v3.0
           <th colspan="2" nowrap="nowrap">Delegate Meals Attending</th>
         </tr>
         <tr>
-        <td colspan="2" bgcolor="#F0F0F0"><p>These items are included on this invoice for you to inform the Host  Committee about your attendance at meals.&nbsp;  There is no additional charge for delegate meals during the  conference.&nbsp; These meals are included in  the conference registration for all delegates.&nbsp;  If you wish to purchase extra meals for a guest, please do so by  selecting the preferred meal below.&nbsp;  Click once for each extra ticket you wish to purchase.</p></td>
+        <td colspan="2" bgcolor="#F0F0F0"><p>These items are included on this invoice for you to inform the Host  Committee about your attendance at two meals.&nbsp;  There is no additional charge for delegate meals during the  conference.&nbsp; These meals are included in  the conference registration for all delegates.&nbsp;  If you wish to purchase extra meals for a guest, please do so by  selecting the preferred meal below.&nbsp;  Click once for each extra ticket you wish to purchase.</p></td>
         </tr>
         <?php do { ?>
           <tr>
             <td nowrap="nowrap"><?php echo $row_rsIncludedMeals['label']; ?></td>
             <td><form id="form2" name="form3" method="post" action="">
                 <div align="right">
-                  <input name="personal" type="hidden" id="personal" value="1" />
                   <input name="conference_id" type="hidden" id="conference_id" value="<?php echo $row_rsConference['conference_id']; ?>" />
                   <input name="transaction_id" type="hidden" id="transaction_id" value="<?php echo create_guid();?>" />
                   <input name="registration_id" type="hidden" id="registration_id" value="<?php echo $row_rsRegInfo['registration_id']; ?>" />
@@ -306,7 +300,7 @@ function MM_goToURL() { //v3.0
         <td class="tableTop"><strong>Invoice</strong></td>
         <td class="tableTop">&nbsp;</td>
         <td class="tableTop"><div align="right">
-          <input name="button" type="button" id="button" onclick="MM_goToURL('parent','printableinvoicePersonal.php?conferenceID=<?php echo $row_rsConference['conference_id']; ?>');return document.MM_returnValue" value="Pay By Check" />
+          <input name="button" type="button" id="button" onclick="MM_goToURL('parent','printableinvoice.php?conferenceID=<?php echo $row_rsConference['conference_id']; ?>');return document.MM_returnValue" value="Pay By Check" />
         </div></td>
         </tr>
         <?php if ($totalRows_rsTransactions > 0) { // Show if recordset not empty ?>
@@ -314,7 +308,7 @@ function MM_goToURL() { //v3.0
             <tr>
               <td colspan="2" nowrap="nowrap">
               <?php if($row_rsTransactions['transaction_description'] ==''){?>
-              <a href="invoicePersonal.php?transaction_id=<?php echo $row_rsTransactions['transaction_id']; ?>&amp;conferenceID=<?php echo $row_rsTransactions['conference_id']; ?>"><img src="../../images/imgAdminDelete.gif" alt="Delete" width="14" height="14" /></a>
+              <a href="invoice.php?transaction_id=<?php echo $row_rsTransactions['transaction_id']; ?>&amp;conferenceID=<?php echo $row_rsTransactions['conference_id']; ?>"><img src="../../images/imgAdminDelete.gif" alt="Delete" width="14" height="14" /></a>
               <?php }?>
 			  <?php echo $row_rsTransactions['label']; ?>&nbsp;-&nbsp;<?php echo $row_rsTransactions['transaction_type']; ?></td>
               <td><div align="right"><?php echo DoFormatCurrency($row_rsTransactions['transaction_amount'], 2, '.', ',', '$'); ?></div></td>
@@ -335,14 +329,14 @@ function MM_goToURL() { //v3.0
         <tr>
           <td>&nbsp;</td>
           <td>&nbsp;</td>
-          <td><form action="https://shop.usm.edu/ustores/web/store_main.jsp?STOREID=17" method="post">
+          <td><form action="https://www.paypal.com/cgi-bin/webscr" method="post">
             
             <div align="right">
               <input type="hidden" name="cmd" value="_xclick">
               
               <input type="hidden" name="bn" value="webassist.dreamweaver.4_0_3">
               
-              <input type="hidden" name="business" value="lmtaylor@samford.edu">
+              <input type="hidden" name="business" value="rbrown@regent.edu">
               
               <input type="hidden" name="item_name" value="<?php echo $row_rsUser['org_name']."'s Registration"; ?>" />
               
@@ -378,7 +372,7 @@ function MM_goToURL() { //v3.0
               <input type="hidden" name="pal" value="ANNSXSLJLYR2A" />
               <input type="hidden" name="no_shipping" value="0" />
               <input type="hidden" name="no_note" value="0" />
-              <input type="submit" value="Pay On-Line" name="Pay On-Line" border="0"  />
+              <input type="image" name="submit" src="http://images.paypal.com/images/x-click-but03.gif" border="0" alt="Make payments with PayPal, it's fast, free, and secure!" />
               </div>
           </form></td>
         </tr>

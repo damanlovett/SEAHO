@@ -329,7 +329,7 @@ function MM_goToURL() { //v3.0
         <tr>
           <td>&nbsp;</td>
           <td>&nbsp;</td>
-          <td><form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+          <td><form action="https://shop.usm.edu/ustores/web/store_main.jsp?STOREID=17" method="post">
             
             <div align="right">
               <input type="hidden" name="cmd" value="_xclick">
@@ -372,7 +372,7 @@ function MM_goToURL() { //v3.0
               <input type="hidden" name="pal" value="ANNSXSLJLYR2A" />
               <input type="hidden" name="no_shipping" value="0" />
               <input type="hidden" name="no_note" value="0" />
-              <input type="image" name="submit" src="http://images.paypal.com/images/x-click-but03.gif" border="0" alt="Make payments with PayPal, it's fast, free, and secure!" />
+              <input type="submit" value="Pay On-Line" name="Pay On-Line" border="0"  />
               </div>
           </form></td>
         </tr>
