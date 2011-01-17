@@ -13,6 +13,8 @@
 	width: 240px;
 	background-position: center center;
 }
+
+
 -->
 </style>
 
@@ -70,9 +72,20 @@ else {echo "<img src=\"$xmImg\" $dimensions[3]>";}
        	<li><a href="http://seaho.org/cws/index.php?subj=10">Seaho 2011 Homepage</a></li>
         <li><a href="http://seaho.org/registration/delegate/index.php">Conference Registration</a></li>
         <li><a href="http://seaho.org/registration/associates/index.php">Associate Registration</a></li>
-        <li><a href="http://seaho.org/awards/award_information.php">Awards Information</a> [&nbsp;<a href="/pdfs/AwardsMarketing2.pdf">Awards Flyer</a>&nbsp;]</li>
+        <li><a href="http://seaho.org/cws/index.php?page=44">Associate Information</a></li>
+        <li><a href="http://seaho.org/cws/index.php?page=46">Exhibiter Kit</a></li>
+        <li><strong><a href="http://seaho.org/awards/award_information.php">Awards Information</a></strong></li>
+      </ul>
+    </p>        
+      <p>Governing Council Conference Documents<br />
+        <ul>
+            <li><a href="http://seaho.org/pdf/ConferenceHostingGuideChangesOct10.pdf">Conference Hosting Guide Changes</a></li>
+            <li><a href="http://seaho.org/pdf/GCNew10-18-10.pdf">New Governing Council</a></li>
+            <li><a href="http://seaho.org/pdf/LeadershipManualChangesOct10.pdf">Leadership Manual Changes Oct 10</a></li>
+            <li><a href="http://seaho.org/pdf/SEAHOConstitution11_11_10.pdf">SEAHO Constitution 11/11/10</a></li>
+            <li><p>Download all 4 documents:<br /> <a href="http://seaho.org/pdf/GCDocuments2011.zip">Govern Council Documents</a></p></li>
        </ul>
-    </p>
+      </p>
      <p>Also check out - Programs: <br />
      <a href="http://seaho.org/cws/index.php?page=36">General Program Information</a>
      </p>
