@@ -38,10 +38,13 @@ $query_rsProgramlist = sprintf("SELECT id, ProgramTitle, ProgramNumber, `session
 $rsProgramlist = mysql_query($query_rsProgramlist, $Programming) or die(mysql_error());
 $row_rsProgramlist = mysql_fetch_assoc($rsProgramlist);
 $totalRows_rsProgramlist = mysql_num_rows($rsProgramlist);
-?><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
-<HTML xmlns="http://www.w3.org/1999/xhtml"><HEAD><TITLE>SEAHO 2007 | Program List</TITLE>
-<META http-equiv=Content-Type content="text/html; charset=iso-8859-1">
-<META content="MSHTML 6.00.2900.2873" name=GENERATOR>
+?>
+<!DOCTYPE HTML> 
+<html>
+<HEAD>
+<meta charset="UTF-8">
+<TITLE>SEAHO 2007 | Program List</TITLE>
+
 <link href="../../stylesheets/conferencestyle2007.css" rel="stylesheet" type="text/css">
 <style type="text/css">
 <!--
@@ -159,8 +162,8 @@ function MM_goToURL() { //v3.0
 </HEAD>
 <BODY>
 <DIV id=container>
-<div id=image><img src="../../images/logo2009.png" width="215" height="215" alt="logo"><br>
-  SEAHO 2009 Program List</div>
+<div id=image><img src="http://seaho.org/images/logo2011.jpg" width="146" height="91" alt="logo"><br>
+  SEAHO  Program List</div>
 <DIV id=content>
 <h3>&nbsp;</h3>
 <table width="500" border="0" cellpadding="5" cellspacing="0">

@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="status" value="needs attention" />
+	<infoitem key="notes" value="4/30/06: &#xD;This page needs to be format so that it can be printed.  Put a print link (common tab) make like invible in print style sheet." />
+	<infoitem key="UD_rsChair" value="name:position;datatype:string,name:email;datatype:string,name:first_name;datatype:string,name:last_name;datatype:string,name:school;datatype:string" />
+	<infoitem key="UD_rsPageInfo" value="name:page_id;datatype:int,name:page;datatype:string,name:header;datatype:string,name:page_info;datatype:blob,name:footer;datatype:string,name:created_on;datatype:datetime,name:created_by;datatype:string,name:deleted;datatype:int" />
+</info>

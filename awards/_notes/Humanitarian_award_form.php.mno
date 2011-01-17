@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rsChair" value="name:position;datatype:string,name:email;datatype:string,name:first_name;datatype:string,name:last_name;datatype:string,name:school;datatype:string" />
+	<infoitem key="status" value="final" />
+	<infoitem key="notes" value="6/27/06: &#xD;Double check email to . .everything else works.&#xD;&#xD;6/25/06: &#xD;DONE - Take out session variables ( or fix )&#xD;6/23/06: &#xD;Make db table to collect Data.&#xD;Change email in humanawardemail&#xD;5/22/06: &#xD;This page needs to be format so that it can be printed.  Put a print link (common tab) make like invible in print style sheet.&#xD;" />
+	<infoitem key="showOnOpen" value="true" />
+</info>

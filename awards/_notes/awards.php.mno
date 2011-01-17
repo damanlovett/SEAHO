@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rsWinners" value="name:award;datatype:string,name:year;datatype:int,name:first_name;datatype:string,name:last_name;datatype:string,name:position;datatype:string,name:institution;datatype:string" />
+	<infoitem key="UD_rsAwardYear" value="name:award_id;datatype:string,name:award;datatype:string,name:description;datatype:blob,name:nomination;datatype:blob,name:accepting;datatype:int,name:visible;datatype:int,name:year;datatype:int,name:created_on;datatype:datetime,name:mod_by;datatype:string,name:mod_on;datatype:timestamp,name:created_by;datatype:string,name:deleted;datatype:int" />
+</info>

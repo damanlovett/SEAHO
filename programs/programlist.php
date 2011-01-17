@@ -67,10 +67,13 @@ if (!empty($_SERVER['QUERY_STRING'])) {
   }
 }
 $queryString_rsProgramList = sprintf("&totalRows_rsProgramList=%d%s", $totalRows_rsProgramList, $queryString_rsProgramList);
-?><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
-<HTML xmlns="http://www.w3.org/1999/xhtml"><HEAD><TITLE>SEAHO | Program List</TITLE>
-<META http-equiv=Content-Type content="text/html; charset=iso-8859-1">
-<META content="MSHTML 6.00.2900.2873" name=GENERATOR>
+?>
+ <!DOCTYPE HTML> 
+<html>
+<HEAD>
+<meta charset="UTF-8">
+<TITLE>SEAHO | Program List</TITLE>
+
 <link href="../stylesheets/conferencestyle2007.css" rel="stylesheet" type="text/css">
 <style type="text/css">
 <!--

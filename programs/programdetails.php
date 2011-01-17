@@ -71,10 +71,12 @@ if (!empty($_SERVER['QUERY_STRING'])) {
   }
 }
 $queryString_rsProgramList = sprintf("&totalRows_rsProgramList=%d%s", $totalRows_rsProgramList, $queryString_rsProgramList);
-?><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
-<HTML xmlns="http://www.w3.org/1999/xhtml"><HEAD><TITLE>SEAHO | Program Details</TITLE>
-<META http-equiv=Content-Type content="text/html; charset=iso-8859-1">
-<META content="MSHTML 6.00.2900.2873" name=GENERATOR>
+?><!DOCTYPE HTML> 
+<html>
+<HEAD>
+<meta charset="UTF-8">
+<TITLE>SEAHO | Program Details</TITLE>
+
 <link href="../stylesheets/conferencestyle2007.css" rel="stylesheet" type="text/css">
 <style type="text/css">
 <!--
@@ -200,7 +202,7 @@ function MM_openBrWindow(theURL,winName,features) { //v2.0
 </HEAD>
 <BODY>
 <DIV id=container>
-<div class="smallHeader"><h1>SEAHO 2010 Program Details</h2></div>
+<div class="smallHeader"><h1>SEAHO Program Details</h2></div>
 <DIV id=content>
 <br />
 <br />
@@ -226,7 +228,7 @@ function MM_openBrWindow(theURL,winName,features) { //v2.0
           <?php echo $row_rsProgramList['target_audience']; ?></p>
           <br>
             <p><strong>Description</strong><br />
-			<?php echo $row_rsProgramList['ProgramDescription']; ?></p>
+			<?php echo htmlspecialchars($row_rsProgramList['ProgramDescription'], ENT_QUOTES); ?></p>
             <p><strong>Learning Objectives</strong></p>
             <ul>
               <li><?php echo $row_rsProgramList['LearningObj1']; ?></li>

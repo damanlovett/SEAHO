@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="status" value="needs attention" />
+	<infoitem key="notes" value="4/30/06: &#xD;Application needs to point to the new pdfs application" />
+	<infoitem key="UD_rsAwardsChair" value="name:First;datatype:string,name:Last;datatype:string,name:Position;datatype:string,name:Email;datatype:string,name:seahoemail;datatype:string" />
+	<infoitem key="UD_rsChair" value="name:position;datatype:string,name:email;datatype:string,name:first_name;datatype:string,name:last_name;datatype:string,name:school;datatype:string,name:user_email;datatype:string" />
+</info>
