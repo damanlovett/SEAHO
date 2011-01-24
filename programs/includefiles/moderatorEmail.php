@@ -7,7 +7,7 @@ function moderatorEmail($Title,$ProgramNumber,$modName,$modEmail,$modMessage)
 //$institution = $_POST['institution'];
 //$email = $_POST['email'];
 $subject = "Moderator Request";
-$mailto = "rogerm@gatech.edu";
+$mailto = "roger.montiel@housing.gatech.edu";
 //$mailto = "eddie@lovettcreations.org";
 
 // Header for return address

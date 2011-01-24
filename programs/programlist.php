@@ -44,6 +44,12 @@ $query_limit_rsProgramList = sprintf("%s LIMIT %d, %d", $query_rsProgramList, $s
 $rsProgramList = mysql_query($query_limit_rsProgramList, $Programming) or die(mysql_error());
 $row_rsProgramList = mysql_fetch_assoc($rsProgramList);
 
+mysql_select_db($database_Programming, $Programming);
+$query_rsProgramsList = "SELECT topic_area.id, topic_area.topic_area FROM topic_area WHERE topic_area.deleted =0 ORDER BY topic_area.topic_area";
+$rsProgramsList = mysql_query($query_rsProgramsList, $Programming) or die(mysql_error());
+$row_rsProgramsList = mysql_fetch_assoc($rsProgramsList);
+$totalRows_rsProgramsList = mysql_num_rows($rsProgramsList);
+
 if (isset($_GET['totalRows_rsProgramList'])) {
   $totalRows_rsProgramList = $_GET['totalRows_rsProgramList'];
 } else {
@@ -213,7 +219,7 @@ $queryString_rsProgramList = sprintf("&totalRows_rsProgramList=%d%s", $totalRows
     <td><form name="form3" method="post" action="../programs/search/topic.php">
       <select name="search" class="smalltextbutton" id="search">
         <option value="N/A" selected>Select Topic</option>
-        <option value="Academic Initiatives and Partnerships">Academic Initiatives and Partnerships</option>
+      <!--  <option value="Academic Initiatives and Partnerships">Academic Initiatives and Partnerships</option>
         <option value="Assessment and Benchmarking">Assessment and Benchmarking</option>
         <option value="Conference, Apartments, Family Housing">Conference, Apartments, Family Housing</option>
         <option value="Facilities, Purchasing, Construction and Renovation">Facilities, Purchasing, Construction and Renovation</option>
@@ -223,8 +229,50 @@ $queryString_rsProgramList = sprintf("&totalRows_rsProgramList=%d%s", $totalRows
         <option value="Staff Supervision and Development">Staff Supervision and Development</option>
         <option value="Technology, Legal Issues, Administration and Business Operations">Technology, Legal Issues, Administration and Business Operations</option>
       </select>
+
+
+
+<select name="programID">--> 
+              <?php 
+do {  
+?>
+              <option value="<?php echo $row_rsProgramsList['topic_area']?>" ><?php echo substr($row_rsProgramsList['topic_area'],0,30)?> ... </option>
+              <?php
+} while ($row_rsProgramsList = mysql_fetch_assoc($rsProgramsList));
+?>
       <input name="Submit2" type="submit" class="smalltextbutton" value="Search">
-    </form>    </td>
+    </form>
+            </select>          </td>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </td>
   </tr>
   <tr>
     <td><form name="form4" method="post" action="../programs/search/title.php">

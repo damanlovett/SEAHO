@@ -29,6 +29,11 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 }
 }
 
+mysql_select_db($database_Programming, $Programming);
+$query_rsProgramsList = "SELECT topic_area.id, topic_area.topic_area FROM topic_area WHERE topic_area.deleted =0 ORDER BY topic_area.topic_area";
+$rsProgramsList = mysql_query($query_rsProgramsList, $Programming) or die(mysql_error());
+$row_rsProgramsList = mysql_fetch_assoc($rsProgramsList);
+$totalRows_rsProgramsList = mysql_num_rows($rsProgramsList);
 $colname_rsProgramlist = "-1";
 if (isset($_POST['search'])) {
   $colname_rsProgramlist = (get_magic_quotes_gpc()) ? $_POST['search'] : addslashes($_POST['search']);
@@ -187,22 +192,27 @@ function MM_goToURL() { //v3.0
     </form>    </td>
   </tr>
   <tr>
-    <td><form action="topic.php" method="post" name="form3">
+  
+    <td><form name="form3" method="post" action="topic.php">
       <select name="search" class="smalltextbutton" id="search">
         <option value="N/A" selected>Select Topic</option>
-        <option value="Academic Initiatives and Partnerships">Academic Initiatives and Partnerships</option>
-        <option value="Assessment and Benchmarking">Assessment and Benchmarking</option>
-        <option value="Conference, Apartments, Family Housing">Conference, Apartments, Family Housing</option>
-        <option value="Facilities, Purchasing, Construction and Renovation">Facilities, Purchasing, Construction and Renovation</option>
-        <option value="PPP track- Pre-Professional Preparation">PPP track- Pre-Professional Preparation</option>
-        <option value="Programming and Leadership Development">Programming and Leadership Development</option>
-        <option value="Social and Personal Issues">Social and Personal Issues</option>
-        <option value="Staff Supervision and Development">Staff Supervision and Development</option>
-        <option value="Technology, Legal Issues, Administration and Business Operations">Technology, Legal Issues, Administration and Business Operations</option>
-      </select>
+
+              <?php 
+do {  
+?>
+              <option value="<?php echo $row_rsProgramsList['topic_area']?>" ><?php echo substr($row_rsProgramsList['topic_area'],0,30)?> ... </option>
+              <?php
+} while ($row_rsProgramsList = mysql_fetch_assoc($rsProgramsList));
+?>
       <input name="Submit2" type="submit" class="smalltextbutton" value="Search">
-    </form>    </td>
-  </tr>
+    </form>
+            </select>          </td>
+
+
+
+
+
+</tr>
   <tr>
     <td><form action="title.php" method="post" name="form4">
       <input name="search" type="text" class="smalltextbutton" id="search" value="Enter Title" size="45">
