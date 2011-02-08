@@ -80,6 +80,7 @@ else {echo "<img src=\"$xmImg\" $dimensions[3]>";}
     </p>        
       <p>Governing Council Conference Documents<br />
         <ul>
+            <li><a href="http://seaho.org/pdf/2011SEAHOOfficerElections.pdf">SEAHO Officer Elections</a></li>
             <li><a href="http://seaho.org/pdf/ConferenceHostingGuideChangesOct10.pdf">Conference Hosting Guide Changes</a></li>
             <li><a href="http://seaho.org/pdf/GCNew10-18-10.pdf">New Governing Council</a></li>
             <li><a href="http://seaho.org/pdf/LeadershipManualChangesOct10.pdf">Leadership Manual Changes Oct 10</a></li>
