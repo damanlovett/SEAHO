@@ -70,12 +70,13 @@ else {echo "<img src=\"$xmImg\" $dimensions[3]>";}
      <p>Conference Information<br /> 
        <ul>
        	<li><a href="http://seaho.org/cws/index.php?subj=10">Seaho 2011 Homepage</a></li>
+       	<li><a href="http://www.seaho.org/reli/formApplication.php">RELI 2011 Application</a></li>
         <li><a href="http://seaho.org/registration/delegate/index.php">Conference Registration</a></li>
         <li><a href="http://seaho.org/registration/associates/index.php">Associate Registration</a></li>
         <li><a href="http://seaho.org/cws/index.php?page=44">Associate Information</a></li>
         <li><a href="http://seaho.org/cws/index.php?page=46">Exhibiter Kit</a></li>
-        <li><strong><a href="http://seaho.org/awards/award_information.php">Awards Information</a></strong></li>
         <li><strong><a href="http://placement.seaho.org">SEAHO Placement Center</a></strong></li>
+        <li><a href="/pdfs/SEAHO_2011_PBook_FINAL.pdf">Conference Program Book </a><span class="smallBoldRed">NEW</span></li>
 </ul>
     </p>        
       <p>Governing Council Conference Documents<br />
@@ -108,7 +109,7 @@ The ACUHO-I Foundation requests that each regional affiliate appoint a member to
         <!--The <a href="reli/formApplication.php">RELI Application</a> is now available. -->
         <a href="reli/index.php">RELI 2010 Information</a> is now available. The timeline for applications will be: </p>
       <ul>
-        <li>Applications     Open &ndash; <span class="boldRed">NOW</span></li>
+        <li>Applications     Open &ndash; <span class="smallBoldRed">NOW</span></li>
         <li>Application     Deadline &ndash; March 12th, 5:00pm EST</li>
         <li>Successful     Applicants Notified &ndash; April 1st</li>
       </ul>
