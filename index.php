@@ -77,6 +77,7 @@ else {echo "<img src=\"$xmImg\" $dimensions[3]>";}
         <li><a href="http://seaho.org/cws/index.php?page=46">Exhibiter Kit</a></li>
         <li><strong><a href="http://placement.seaho.org">SEAHO Placement Center</a></strong></li>
         <li><a href="/pdfs/SEAHO_2011_PBook_FINAL.pdf">Conference Program Book </a><span class="smallBoldRed">NEW</span></li>
+        <li><a href="/pdfs/ConferenceCoordinatorApplication.docx">Conference Coordinator Application</a><span class="smallBoldRed">NEW</span></li>
 </ul>
     </p>        
       <p>Governing Council Conference Documents<br />
