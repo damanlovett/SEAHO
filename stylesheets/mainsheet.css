@@ -85,7 +85,7 @@ form { margin: 0px; padding: 0px; }
 .noimgborder { border-top-style: none; border-right-style: none; border-bottom-style: none; border-left-style: none; }
 
 .boldRed { font-weight: bold; color: #F00; }
-.smallBoldRed { font-weight: bold; color: #F00; font-size:9px; margins:0 3px; }
+span.smallBoldRed { font-weight: bold; color: #F00; font-size:9px; margins:0 3px; }
 
 .leftFloat { float: left; padding-right: 5px; }
 

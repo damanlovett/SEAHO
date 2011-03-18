@@ -70,7 +70,6 @@ else {echo "<img src=\"$xmImg\" $dimensions[3]>";}
      <p>Conference Information<br /> 
        <ul>
        	<li><a href="http://seaho.org/cws/index.php?subj=10">Seaho 2011 Homepage</a></li>
-       	<li><a href="http://www.seaho.org/reli/formApplication.php">RELI 2011 Application</a></li>
         <li><a href="http://seaho.org/registration/delegate/index.php">Conference Registration</a></li>
         <li><a href="http://seaho.org/registration/associates/index.php">Associate Registration</a></li>
         <li><a href="http://seaho.org/cws/index.php?page=44">Associate Information</a></li>
@@ -87,7 +86,10 @@ else {echo "<img src=\"$xmImg\" $dimensions[3]>";}
             <li><a href="http://seaho.org/pdf/GCNew10-18-10.pdf">New Governing Council</a></li>
             <li><a href="http://seaho.org/pdf/LeadershipManualChangesOct10.pdf">Leadership Manual Changes Oct 10</a></li>
             <li><a href="http://seaho.org/pdf/SEAHOConstitution11_11_10.pdf">SEAHO Constitution 11/11/10</a></li>
-            <li><p>Download all 4 documents:<br /> <a href="http://seaho.org/pdf/GCDocuments2011.zip">Govern Council Documents</a></p></li>
+            <li class="hideDiv"><p>Download all 4 documents:<br /> <a href="http://seaho.org/pdf/GCDocuments2011.zip">Govern Council Documents</a></p></li>
+            <li><a href="http://seaho.org/pdf/CommitteeStateRepsEditorApplication.docx">Committee State Reps Editor Application</a>&nbsp;<span class="smallBoldRed">NEW</span></li>
+            <li><a href="http://seaho.org/pdf/FeatureArticlesEditorApplication.doc">Feature Articles Editor Application</a>&nbsp;<span class="smallBoldRed">NEW</span></li>
+            <li><a href="http://seaho.org/pdf/SponsorshipCoordinatorApplication.doc">Sponsorship Coordinator Application</a>&nbsp;<span class="smallBoldRed">NEW</span></li>
        </ul>
       </p>
      <p>Also check out - Programs: <br />

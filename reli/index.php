@@ -162,6 +162,9 @@ members will spend classroom and individual time with attendees making it benefi
         </tbody>
       </table>
 <hr />
+
+
+<div class="hideDiv"> <!-- Hidden div -->
 <p><strong><em>Application Process:</em></strong></p>
       <ul>
         <li>As  part of the application process you will answer questions that ask you  to reflect on your professional goals as well as what you hope to gain  from the institute.</li>
@@ -170,11 +173,11 @@ members will spend classroom and individual time with attendees making it benefi
 <li>A current resume</li>
             <li>A letter of reference and support from your Director of Housing or your Director of Residence Life.        </li>
           </ul>
-        <li>The <a href="formApplication.php">RELI 2011 Application</a> ( Available  <span class="smallBoldRed">NOW</span> )</li>
+        <!--- <li>The <a href="formApplication.php">RELI 2011 Application</a> ( Available  <span class="smallBoldRed">NOW</span> )</li> -->
       </ul>
 <p><strong><em>RELI 2011 Timeline: </em></strong></p>
       <ul>
-        <li><a href="formApplication.php">Applications Open</a> &ndash; <span class="smallBoldRed">NOW</span> </li>
+        <li><a href="formApplication.php">Applications Open</a> &ndash; <span class="smallBoldRed">NOW</span> </li> -->
         <li>Application Deadline &ndash; March 11th, 5:00pm EST</li>
         <li>Successful Applicants Notified &ndash; April 1st </li>
       </ul>
@@ -188,6 +191,10 @@ members will spend classroom and individual time with attendees making it benefi
           <div>A number of travel and registration scholarships will be available. If you awarded a scholarship, you will be notified when you are&nbsp;made aware&nbsp;of your selection status.</div>
         </li>
       </ul>
+
+</div> <!-- End of hidden div -->
+
+
 <p>&nbsp;</p>
       <form action="<?php echo $GP_uploadAction; ?>" method="post" enctype="multipart/form-data" name="reliapplication" id="reliapplication" onsubmit="checkFileUpload(this,'',true,'','','','','','','');return document.MM_returnValue">
         <table width="90%" border="0" cellspacing="0" cellpadding="4">
